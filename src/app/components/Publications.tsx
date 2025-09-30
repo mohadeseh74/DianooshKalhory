@@ -51,10 +51,10 @@ export default function Publications() {
             <div
               key={idx}
               data-aos="zoom-in"
-              className="w-full bg-white rounded-lg border-1 border-gray-200 p-10 text-left flex flex-col md:flex-row items-center gap-5 mb-5"
+              className="w-full bg-white rounded-lg border-1 border-gray-200 p-10 text-left flex flex-col md:flex-row items-center gap-5 mb-5 group"
             >
               <div className="">
-                <h3 className="text-xl font-bold mb-1 text-gray-800">
+                <h3 className="text-xl font-bold mb-1 text-gray-800 group-hover:text-primary transition duration-300">
                   {pub.title}
                 </h3>
                 <p className="text-md text-gray-400 mb-1 italic">

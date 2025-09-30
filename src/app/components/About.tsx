@@ -15,7 +15,7 @@ export default function About() {
             alt="Dianoosh Kalhory"
             width={400}
             height={350}
-            className="rounded-xl mr-8 shadow-lg"
+            className="rounded-xl md:mr-8 shadow-lg"
           />
           <div className="mt-6 md:mt-0 max-w-3xl px-2">
             <h3 className="text-left text-2xl font-semibold mb-4 text-gray-800">

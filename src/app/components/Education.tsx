@@ -12,11 +12,11 @@ export default function Education() {
         <div className="w-full flex flex-col justify-center items-center mb-10">
           <div
             data-aos="zoom-in"
-            className="w-full max-w-5xl bg-white rounded-lg shadow-lg p-10 text-left flex flex-col md:flex-row items-center gap-5"
+            className="w-full max-w-5xl bg-white rounded-lg shadow-lg p-10 text-left flex flex-col md:flex-row items-center gap-5 group"
           >
             <Link href="https://www.utoronto.ca/" target="_blank" className="">
               <Image
-                src="/utoronto.png"
+                src="/Utoronto.png"
                 alt="University of Toronto"
                 width={120}
                 height={100}
@@ -25,7 +25,7 @@ export default function Education() {
             </Link>
 
             <div className="">
-              <h3 className="text-2xl font-medium mb-4 text-gray-800">
+              <h3 className="text-2xl font-medium mb-4 text-gray-800 group-hover:text-primary transition duration-300">
                 PhD, Biomedical Engineering, Institute of Biomedical
                 Engineering, University of Toronto
               </h3>
@@ -41,7 +41,7 @@ export default function Education() {
           </div>
           <div
             data-aos="zoom-in"
-            className="w-full max-w-5xl bg-white rounded-lg shadow-lg p-10 text-left flex flex-col md:flex-row items-center gap-5 mt-10"
+            className="w-full max-w-5xl bg-white rounded-lg shadow-lg p-10 text-left flex flex-col md:flex-row items-center gap-5 mt-10 group"
           >
             <Link href="https://aut.ac.ir/en" target="_blank" className="">
               <Image
@@ -54,7 +54,7 @@ export default function Education() {
             </Link>
 
             <div className="">
-              <h3 className="text-2xl font-medium mb-4 text-gray-800">
+              <h3 className="text-2xl font-medium mb-4 text-gray-800 group-hover:text-primary transition duration-300">
                 MSc, Biomedical Engineering, Faculty of Biomedical Engineering,
                 Amirkabir University of Technology
               </h3>
@@ -73,7 +73,7 @@ export default function Education() {
           </div>
           <div
             data-aos="zoom-in"
-            className="w-full max-w-5xl bg-white rounded-lg shadow-lg p-10 text-left flex flex-col md:flex-row items-center gap-5 mt-10"
+            className="w-full max-w-5xl bg-white rounded-lg shadow-lg p-10 text-left flex flex-col md:flex-row items-center gap-5 mt-10 group"
           >
             <Link href="https://aut.ac.ir/en" target="_blank" className="">
               <Image
@@ -86,12 +86,11 @@ export default function Education() {
             </Link>
 
             <div className="">
-              <h3 className="text-2xl font-medium mb-4 text-gray-800">
+              <h3 className="text-2xl font-medium mb-4 text-gray-800 group-hover:text-primary transition duration-300">
                 BSc, Biomedical Engineering, Faculty of Biomedical Engineering,
                 Amirkabir University of Technology
               </h3>
               <p className="text-md text-gray-400 mb-3">
-                {" "}
                 Biomaterials courses: GPA: 3.3/4 (GPA of the last two years:
                 3.8/4) | 2014 - 2019
               </p>

@@ -8,15 +8,14 @@ export default function Banner() {
     <section className="@container mx-auto p-5 overflow-hidden rounded-lg">
       <div
         data-aos="fade-up"
-        className="bg-[url('/lab.jpg')] bg-cover bg-center h-[500px] flex flex-col justify-center items-center text-center"
+        className="bg-[url('/lab.jpg')] bg-cover bg-center h-[500px] flex flex-col justify-center items-center text-center overflow-hidden rounded-lg"
       >
         <div className="bg-primary/50 backdrop-blur-xs p-10 rounded-lg w-full h-full flex flex-col justify-end items-left text-left">
           <h1 className="text-5xl md:text-7xl font-extrabold text-white mb-4">
             Dianoosh kalhory
           </h1>
           <h5 className="text-xl text-gray-100 mb-8">
-            PhD candidate at the University of Toronto | Passionate about
-            Microbiology and 3D Printing
+            PhD candidate at the University of Toronto
           </h5>
           <div className="flex gap-6 text-2xl text-gray-100">
             <a

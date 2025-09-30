@@ -12,7 +12,7 @@ export default function ResearchInterests() {
             className="bg-[url('/abstract-blue-oil-stained-glass.jpg')] bg-cover bg-center bg-no-repeat bg-blend-overlay rounded-lg shadow-lg min-h-[250px]"
           >
             <div className="bg-primary/30 backdrop-blur-xs rounded-lg p-6 w-full h-full flex flex-col justify-center items-center text-center">
-              <h3 className="text-2xl font-semibold text-gray-100">
+              <h3 className="text-2xl font-semibold text-gray-100 wrap-anywhere cursor-default hover:text-primary transition duration-300">
                 TISSUE ENGINEERING/REGENERATIVE MEDICINE
               </h3>
             </div>
@@ -22,7 +22,7 @@ export default function ResearchInterests() {
             className="bg-[url('/futuristic-molecule-patterns-connect-genetic-research-discovery-generated-by-ai.jpg')] bg-cover bg-center bg-no-repeat bg-blend-overlay rounded-lg shadow-lg min-h-[250px]"
           >
             <div className="bg-primary/30 backdrop-blur-xs rounded-lg p-6 w-full h-full flex flex-col justify-center items-center text-center">
-              <h3 className="text-2xl font-semibold text-gray-100">
+              <h3 className="text-2xl font-semibold text-gray-100 wrap-anywhere cursor-default hover:text-primary transition duration-300">
                 NANOTECHNOLOGY
               </h3>
             </div>
@@ -32,7 +32,7 @@ export default function ResearchInterests() {
             className="bg-[url('/logo_make_11_06_2023_191.jpg')] bg-cover bg-center bg-no-repeat bg-blend-overlay rounded-lg shadow-lg min-h-[250px]"
           >
             <div className="bg-primary/30 backdrop-blur-xs rounded-lg p-6 w-full h-full flex flex-col justify-center items-center text-center">
-              <h3 className="text-2xl font-semibold text-gray-100">
+              <h3 className="text-2xl font-semibold text-gray-100 wrap-anywhere cursor-default hover:text-primary transition duration-300">
                 SELF-DRIVING LABS
               </h3>
             </div>
@@ -42,7 +42,7 @@ export default function ResearchInterests() {
             className="bg-[url('/3686109.jpg')] bg-cover bg-center bg-no-repeat bg-blend-overlay rounded-lg shadow-lg min-h-[250px]"
           >
             <div className="bg-primary/30 backdrop-blur-xs rounded-lg p-6 w-full h-full flex flex-col justify-center items-center text-center">
-              <h3 className="text-2xl font-semibold text-gray-100">
+              <h3 className="text-2xl font-semibold text-gray-100 wrap-anywhere cursor-default hover:text-primary transition duration-300">
                 ORGAN-ON-CHIPS
               </h3>
             </div>
