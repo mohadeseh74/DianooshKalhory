@@ -5,7 +5,7 @@ import { MdEmail } from "react-icons/md";
 
 export default function Banner() {
   return (
-    <section className="@container mx-auto p-5 overflow-hidden rounded-lg">
+    <section className="container p-5 overflow-hidden rounded-lg">
       <div
         data-aos="fade-up"
         className="bg-[url('/lab.jpg')] bg-cover bg-center h-[500px] flex flex-col justify-center items-center text-center overflow-hidden rounded-lg"

@@ -1,6 +1,6 @@
 export default function Awards() {
   return (
-    <section className="@container mx-auto p-5 overflow-hidden rounded-lg min-h-[70vh]">
+    <section className="container p-5 overflow-hidden rounded-lg min-h-[70vh]">
       <div className="flex flex-col justify-center items-center text-center">
         <h2 className="text-3xl font-bold mb-15 mt-5 text-gray-800">
           Awards and grants

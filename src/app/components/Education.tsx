@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function Education() {
   return (
-    <section className="@container mx-auto p-5 overflow-hidden rounded-lg">
+    <section className="container p-5 overflow-hidden rounded-lg">
       <div className="flex flex-col justify-center items-center text-center">
         <h2 className="text-3xl md:text-5xl font-bold mb-20 text-gray-800">
           Education
